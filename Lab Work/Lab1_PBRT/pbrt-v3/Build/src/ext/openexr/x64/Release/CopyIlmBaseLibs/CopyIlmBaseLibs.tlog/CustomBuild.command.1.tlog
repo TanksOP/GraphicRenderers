@@ -1,0 +1,26 @@
+^C:\USERS\JW956\DOCUMENTS\GITHUB\COMPUTER_GRAPHICS_MILESTONE_REPO\LAB WORK\LAB1_PBRT\PBRT-V3\BUILD\CMAKEFILES\9E433940FDE3D0C28073FA7FBE2260A6\COPYILMBASELIBS.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/src/ext/openexr/IlmBase/Half/" "C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/src/ext/openexr/OpenEXR/IlmImf/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/src/ext/openexr/IlmBase/IlmThread/" "C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/src/ext/openexr/OpenEXR/IlmImf/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/src/ext/openexr/IlmBase/Iex/" "C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/src/ext/openexr/OpenEXR/IlmImf/"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/src/ext/openexr/IlmBase/Imath/" "C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/src/ext/openexr/OpenEXR/IlmImf/"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JW956\DOCUMENTS\GITHUB\COMPUTER_GRAPHICS_MILESTONE_REPO\LAB WORK\LAB1_PBRT\PBRT-V3\SRC\EXT\OPENEXR\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3" "-BC:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build" --check-stamp-file "C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/src/ext/openexr/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

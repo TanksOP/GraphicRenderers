@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D8850AA4-62CE-3485-832A-4FB5F70FD21D}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\zlib;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\src\ext\zlib;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\openexr\IlmBase\Imath;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\openexr\IlmBase\Half;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\openexr\IlmBase\Iex;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\openexr\OpenEXR\IlmImf;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\src\ext\openexr\IlmBase\config;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\src\ext\openexr\OpenEXR\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\zlib;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\src\ext\zlib;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\openexr\IlmBase\Imath;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\openexr\IlmBase\Half;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\openexr\IlmBase\Iex;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\openexr\OpenEXR\IlmImf;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\src\ext\openexr\IlmBase\config;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\src\ext\openexr\OpenEXR\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\zlib;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\src\ext\zlib;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\openexr\IlmBase\Imath;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\openexr\IlmBase\Half;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\openexr\IlmBase\Iex;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\openexr\OpenEXR\IlmImf;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\src\ext\openexr\IlmBase\config;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\src\ext\openexr\OpenEXR\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\zlib;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\src\ext\zlib;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\openexr\IlmBase\Imath;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\openexr\IlmBase\Half;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\openexr\IlmBase\Iex;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\openexr\OpenEXR\IlmImf;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\src\ext\openexr\IlmBase\config;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\src\ext\openexr\OpenEXR\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\glog\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/src/ext/glog/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3" "-BC:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build" --check-stamp-file "C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/src/ext/glog/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cxx.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Templates\CPackConfig.cmake.in;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CheckTypeSize\HAVE_UINT16_T.c;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CheckTypeSize\HAVE_U_INT16_T.c;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CheckTypeSize\HAVE___UINT16.c;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\glog\cmake\DetermineGflagsNamespace.cmake;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\glog\glog-config.cmake.in;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\glog\src\config.h.cmake.in;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\glog\src\glog\logging.h.in;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\glog\src\glog\raw_logging.h.in;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\glog\src\glog\stl_logging.h.in;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\glog\src\glog\vlog_is_on.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\src\ext\glog\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/src/ext/glog/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3" "-BC:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build" --check-stamp-file "C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/src/ext/glog/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cxx.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Templates\CPackConfig.cmake.in;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CheckTypeSize\HAVE_UINT16_T.c;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CheckTypeSize\HAVE_U_INT16_T.c;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CheckTypeSize\HAVE___UINT16.c;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\glog\cmake\DetermineGflagsNamespace.cmake;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\glog\glog-config.cmake.in;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\glog\src\config.h.cmake.in;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\glog\src\glog\logging.h.in;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\glog\src\glog\raw_logging.h.in;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\glog\src\glog\stl_logging.h.in;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\glog\src\glog\vlog_is_on.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\src\ext\glog\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/src/ext/glog/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3" "-BC:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build" --check-stamp-file "C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/src/ext/glog/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cxx.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Templates\CPackConfig.cmake.in;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CheckTypeSize\HAVE_UINT16_T.c;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CheckTypeSize\HAVE_U_INT16_T.c;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CheckTypeSize\HAVE___UINT16.c;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\glog\cmake\DetermineGflagsNamespace.cmake;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\glog\glog-config.cmake.in;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\glog\src\config.h.cmake.in;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\glog\src\glog\logging.h.in;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\glog\src\glog\raw_logging.h.in;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\glog\src\glog\stl_logging.h.in;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\glog\src\glog\vlog_is_on.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\src\ext\glog\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/src/ext/glog/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3" "-BC:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build" --check-stamp-file "C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/src/ext/glog/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cxx.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckTypeSize.c.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Templates\CPackConfig.cmake.in;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CheckTypeSize\HAVE_UINT16_T.c;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CheckTypeSize\HAVE_U_INT16_T.c;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CheckTypeSize\HAVE___UINT16.c;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\glog\cmake\DetermineGflagsNamespace.cmake;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\glog\glog-config.cmake.in;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\glog\src\config.h.cmake.in;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\glog\src\glog\logging.h.in;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\glog\src\glog\raw_logging.h.in;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\glog\src\glog\stl_logging.h.in;C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\ext\glog\src\glog\vlog_is_on.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\src\ext\glog\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\ZERO_CHECK.vcxproj">
+      <Project>{3D514867-54A0-30FB-9F62-D816559AE4DE}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\src\ext\glog\demangle_unittest.vcxproj">
+      <Project>{713C77E2-762A-31A8-BFFC-ABFE01C1D837}</Project>
+      <Name>demangle_unittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\src\ext\glog\glog.vcxproj">
+      <Project>{B665111C-CD3B-3BC4-95F4-E24A4898B1F5}</Project>
+      <Name>glog</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\src\ext\glog\logging_unittest.vcxproj">
+      <Project>{B9E8BC20-EA76-3827-BF81-7871BE954F8E}</Project>
+      <Name>logging_unittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\src\ext\glog\stl_logging_unittest.vcxproj">
+      <Project>{2CF93D1F-358D-3ADE-8CB7-C241C1F40B14}</Project>
+      <Name>stl_logging_unittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\src\ext\glog\utilities_unittest.vcxproj">
+      <Project>{1C9790C9-6934-390E-8287-CA667DB24C8F}</Project>
+      <Name>utilities_unittest</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

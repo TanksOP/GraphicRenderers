@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\src\tools\imgtool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{255394D1-EF9D-34BB-8D22-B6CB95445D0C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

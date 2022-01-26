@@ -1,0 +1,555 @@
+The system is: Windows - 10.0.22000 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 26/01/2022 18:03:28.
+Project "C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\3.22.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\3.22.2\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\3.22.2\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.91
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/3.22.2/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 26/01/2022 18:03:29.
+Project "C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\3.22.2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\3.22.2\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\3.22.2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.61
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/3.22.2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_816ea.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CMakeCCompilerABI.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_816ea.dir\Debug\\" /Fd"cmTC_816ea.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCCompilerABI.c"
+  cmTC_816ea.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\Debug\cmTC_816ea.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_95529.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CMakeCXXCompilerABI.cpp
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_95529.dir\Debug\\" /Fd"cmTC_95529.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_95529.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\Debug\cmTC_95529.exe
+
+
+
+Determining if files memory.h exist passed with the following output:
+Change Dir: C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_ba0e3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_MEMORY_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ba0e3.dir\Debug\\" /Fd"cmTC_ba0e3.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CheckIncludeFiles\HAVE_MEMORY_H.c"
+  cmTC_ba0e3.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\Debug\cmTC_ba0e3.exe
+
+
+
+Performing C++ SOURCE FILE Test HAVE_HEX_FP_CONSTANTS succeeded with the following output:
+Change Dir: C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_71099.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_HEX_FP_CONSTANTS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_71099.dir\Debug\\" /Fd"cmTC_71099.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\src.cxx"
+  cmTC_71099.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\Debug\cmTC_71099.exe
+
+
+Source file was:
+int main() { float x = 0x1p-32f; }
+Performing C++ SOURCE FILE Test HAVE_BINARY_CONSTANTS succeeded with the following output:
+Change Dir: C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_44b6e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_BINARY_CONSTANTS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_44b6e.dir\Debug\\" /Fd"cmTC_44b6e.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\src.cxx"
+  cmTC_44b6e.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\Debug\cmTC_44b6e.exe
+
+
+Source file was:
+int main() { int x = 0b101011; }
+Performing C++ SOURCE FILE Test HAVE_CONSTEXPR succeeded with the following output:
+Change Dir: C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_66df1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_CONSTEXPR /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_66df1.dir\Debug\\" /Fd"cmTC_66df1.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\src.cxx"
+  cmTC_66df1.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\Debug\cmTC_66df1.exe
+
+
+Source file was:
+int main() { constexpr int x = 0; }
+Performing C++ SOURCE FILE Test HAVE_ALIGNAS succeeded with the following output:
+Change Dir: C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_3674f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_ALIGNAS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3674f.dir\Debug\\" /Fd"cmTC_3674f.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\src.cxx"
+  cmTC_3674f.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\Debug\cmTC_3674f.exe
+
+
+Source file was:
+struct alignas(32) Foo { char x; }; int main() { }
+Performing C++ SOURCE FILE Test HAVE_ALIGNOF succeeded with the following output:
+Change Dir: C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_bd524.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_ALIGNOF /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bd524.dir\Debug\\" /Fd"cmTC_bd524.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\src.cxx"
+  cmTC_bd524.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\Debug\cmTC_bd524.exe
+
+
+Source file was:
+int main() { int x = alignof(double); }
+Performing C++ SOURCE FILE Test HAVE_NONPOD_IN_UNIONS succeeded with the following output:
+Change Dir: C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_bdbb8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_NONPOD_IN_UNIONS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bdbb8.dir\Debug\\" /Fd"cmTC_bdbb8.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\src.cxx"
+  cmTC_bdbb8.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\Debug\cmTC_bdbb8.exe
+
+
+Source file was:
+
+class Bar { public: Bar() { x = 0; } float x; };
+struct Foo { union { int x[10]; Bar b; }; Foo() : b() { } };
+int main() { Foo f; }
+
+Performing C++ SOURCE FILE Test HAVE_DECLSPEC_NOINLINE succeeded with the following output:
+Change Dir: C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_33b55.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_DECLSPEC_NOINLINE /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_33b55.dir\Debug\\" /Fd"cmTC_33b55.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\src.cxx"
+  cmTC_33b55.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\Debug\cmTC_33b55.exe
+
+
+Source file was:
+__declspec(noinline) void foo() { }
+int main() { }
+Performing C++ SOURCE FILE Test HAVE__ALIGNED_MALLOC succeeded with the following output:
+Change Dir: C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_63f65.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE__ALIGNED_MALLOC /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_63f65.dir\Debug\\" /Fd"cmTC_63f65.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\src.cxx"
+  cmTC_63f65.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\Debug\cmTC_63f65.exe
+
+
+Source file was:
+
+#include <malloc.h>
+int main() { void * ptr = _aligned_malloc(1024, 32); }
+
+Performing C++ SOURCE FILE Test HAVE_THREAD_LOCAL succeeded with the following output:
+Change Dir: C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_6055b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_THREAD_LOCAL /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6055b.dir\Debug\\" /Fd"cmTC_6055b.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\src.cxx"
+  cmTC_6055b.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\Debug\cmTC_6055b.exe
+
+
+Source file was:
+
+#ifdef __CYGWIN__
+// Hack to work around https://gcc.gnu.org/bugzilla/show_bug.cgi?id=64697
+#error "No thread_local on cygwin"
+#endif  // __CYGWIN__
+thread_local int x; int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_DECLSPEC_THREAD succeeded with the following output:
+Change Dir: C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_e4da5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_DECLSPEC_THREAD /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e4da5.dir\Debug\\" /Fd"cmTC_e4da5.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\src.cxx"
+  cmTC_e4da5.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\Debug\cmTC_e4da5.exe
+
+
+Source file was:
+
+__declspec(thread) int x; int main() { }
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_84375.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_84375.dir\Debug\\" /Fd"cmTC_84375.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_84375.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\Debug\cmTC_84375.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_c569d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c569d.dir\Debug\\" /Fd"cmTC_c569d.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_c569d.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\Debug\cmTC_c569d.exe
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_b6e05.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b6e05.dir\Debug\\" /Fd"cmTC_b6e05.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_b6e05.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\Debug\cmTC_b6e05.exe
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_36955.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_36955.dir\Debug\\" /Fd"cmTC_36955.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_36955.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\Debug\cmTC_36955.exe
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_d7741.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d7741.dir\Debug\\" /Fd"cmTC_d7741.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_d7741.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\Debug\cmTC_d7741.exe
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_06c1f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_06c1f.dir\Debug\\" /Fd"cmTC_06c1f.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_06c1f.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\Debug\cmTC_06c1f.exe
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_2ff7e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2ff7e.dir\Debug\\" /Fd"cmTC_2ff7e.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_2ff7e.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\Debug\cmTC_2ff7e.exe
+
+
+
+Determining if the include file unordered_map exists passed with the following output:
+Change Dir: C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_b0834.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b0834.dir\Debug\\" /Fd"cmTC_b0834.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx"
+  cmTC_b0834.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\Debug\cmTC_b0834.exe
+
+
+
+Determining if the include file unordered_set exists passed with the following output:
+Change Dir: C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_9f4b7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9f4b7.dir\Debug\\" /Fd"cmTC_9f4b7.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx"
+  cmTC_9f4b7.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\Debug\cmTC_9f4b7.exe
+
+
+
+Determining size of unsigned __int16 passed with the following output:
+Change Dir: C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_89e1f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE___UINT16.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_89e1f.dir\Debug\\" /Fd"cmTC_89e1f.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CheckTypeSize\HAVE___UINT16.c"
+  cmTC_89e1f.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\Debug\cmTC_89e1f.exe
+
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_0cce5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_UINT16_T.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0cce5.dir\Debug\\" /Fd"cmTC_0cce5.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CheckTypeSize\HAVE_UINT16_T.c"
+  cmTC_0cce5.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\Debug\cmTC_0cce5.exe
+
+
+
+Determining if the snprintf exist passed with the following output:
+Change Dir: C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_4ae5d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4ae5d.dir\Debug\\" /Fd"cmTC_4ae5d.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_4ae5d.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\Debug\cmTC_4ae5d.exe
+
+
+File C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE___DECLSPEC succeeded with the following output:
+Change Dir: C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_88937.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE___DECLSPEC /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_88937.dir\Debug\\" /Fd"cmTC_88937.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\src.c"
+  cmTC_88937.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\Debug\cmTC_88937.exe
+
+
+Source file was:
+
+__declspec(selectany) int a;
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test STL_STD_NAMESPACE succeeded with the following output:
+Change Dir: C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_e9499.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D STL_STD_NAMESPACE /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e9499.dir\Debug\\" /Fd"cmTC_e9499.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\src.cxx"
+  cmTC_e9499.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\Debug\cmTC_e9499.exe
+
+
+Source file was:
+
+#include <vector>
+std::vector<int> t; int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_USING_OPERATOR succeeded with the following output:
+Change Dir: C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_fe65c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_USING_OPERATOR /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fe65c.dir\Debug\\" /Fd"cmTC_fe65c.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\src.cxx"
+  cmTC_fe65c.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\Debug\cmTC_fe65c.exe
+
+
+Source file was:
+
+#include <iostream>
+std::ostream& operator<<(std::ostream&, struct s);
+using ::operator<<;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_NAMESPACES succeeded with the following output:
+Change Dir: C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_5f735.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29914 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_NAMESPACES /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5f735.dir\Debug\\" /Fd"cmTC_5f735.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\src.cxx"
+  cmTC_5f735.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Lab Work\Lab1_PBRT\pbrt-v3\Build\CMakeFiles\CMakeTmp\Debug\cmTC_5f735.exe
+
+
+Source file was:
+
+namespace Outer { namespace Inner { int i = 0; }}
+using namespace Outer::Inner;;
+int main() { return i; }
+

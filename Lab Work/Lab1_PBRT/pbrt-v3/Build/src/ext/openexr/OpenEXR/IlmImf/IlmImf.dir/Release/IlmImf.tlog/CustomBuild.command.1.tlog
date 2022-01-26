@@ -1,0 +1,30 @@
+^C:\USERS\JW956\DOCUMENTS\GITHUB\COMPUTER_GRAPHICS_MILESTONE_REPO\LAB WORK\LAB1_PBRT\PBRT-V3\BUILD\CMAKEFILES\64ECD3B5E648D2B8A16D64EAF9C55FD7\B44EXPLOGTABLE.H.RULE
+setlocal
+Release\b44ExpLogTable > "C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/src/ext/openexr/OpenEXR/IlmImf/b44ExpLogTable.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JW956\DOCUMENTS\GITHUB\COMPUTER_GRAPHICS_MILESTONE_REPO\LAB WORK\LAB1_PBRT\PBRT-V3\BUILD\CMAKEFILES\64ECD3B5E648D2B8A16D64EAF9C55FD7\DWALOOKUPS.H.RULE
+setlocal
+Release\dwaLookups > "C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/src/ext/openexr/OpenEXR/IlmImf/dwaLookups.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JW956\DOCUMENTS\GITHUB\COMPUTER_GRAPHICS_MILESTONE_REPO\LAB WORK\LAB1_PBRT\PBRT-V3\SRC\EXT\OPENEXR\OPENEXR\ILMIMF\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3" "-BC:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build" --check-stamp-file "C:/Users/jw956/Documents/GitHub/Computer_Graphics_milestone_repo/Lab Work/Lab1_PBRT/pbrt-v3/Build/src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
