@@ -1,1 +1,3 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=6796626&assignment_repo_type=AssignmentRepo)
+# Lab 5 Texturing
+In this lab I will be implementing barycentric coordinates and the cross product of two vectors.  
+After this I will get the teture coordinates from the obj file, to add color to the model 
