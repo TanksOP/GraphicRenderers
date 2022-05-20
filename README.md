@@ -1,5 +1,5 @@
 # Graphics
-
+The final build files for the programs, go to the final build folder which contains the diffent builds in the bin folder
 After somo googling for a refernece picture I decided on the photo which is shown below. After showing this picture to Carlo, I was givern the feedback that the photo was not quie good enough, as it needed some sort of glas in the scene and that the scene should be landscape not portrait. From the feedback I then create a scene inspired from the photo. To make my scene fit the feedback that i was given i have added in a glass in the middle forground and also added anouther vase in the backgound to help the scene look better in a landscape orientation.
 
 ![idea 1](https://user-images.githubusercontent.com/71771303/155147040-477f22de-0d37-4962-b78d-48023849a8c7.jpg)  
