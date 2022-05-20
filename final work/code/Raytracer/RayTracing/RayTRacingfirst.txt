@@ -1,0 +1,99 @@
+#pragma once
+
+#include <fstream>
+#include <cmath>
+#include <chrono>
+#include "Geometry.h"
+#include "SDL.h"
+
+
+
+struct Ray
+{
+	Point3f o;
+	Vec3f d;
+	Ray(const Point3f& o, const Vec3f& d) : o(o), d(d) {}
+};
+
+struct Sphere
+{
+	Vec3f c;
+	double r;
+	Sphere(const Vec3f& c, double r) : c(c), r(r) {}
+	Vec3f getNormal(const Vec3f& pi) const { return (pi - c) / r; }
+
+	bool intersect(const Ray& ray, double& t) const {
+		const Vec3f o = ray.o;
+		const Vec3f d = ray.d;
+		const Vec3f oc = o - c;
+		const double b = 2 * oc.dotProduct(d);
+		const double c = oc.dotProduct(oc) - r * r;
+		double disc = b * b - 4 * c;
+		if (disc < 1e-4) return false;
+		disc = sqrt(disc);
+		const double t0 = -b - disc;
+		const double t1 = -b + disc;
+		t = (t0 < t1) ? t0 : t1;
+		return true;
+
+	}
+};
+
+void clamp255(Vec3f& col) {
+	col.x = (col.x > 255) ? 255 : (col.x < 0) ? 0 : col.x;
+	col.y = (col.y > 255) ? 255 : (col.y < 0) ? 0 : col.y;
+	col.z = (col.z > 255) ? 255 : (col.z < 0) ? 0 : col.z;
+}
+
+int main() {
+	const int H = 500;
+	const int W = 500;
+
+	const int Radius = 50;
+
+	const Vec3f white(255, 255, 255);
+	const Vec3f black(0, 0, 0);
+	const Vec3f red(255, 0, 0);
+
+	const Sphere sphere(Vec3f(W * 0.5, H * 0.5, Radius), Radius);
+	const Sphere sphere2(Vec3f(W * 0.2, H * 0.2, Radius), Radius);
+	const Sphere light(Vec3f(0, 0, 50), 1);
+
+
+
+	std::ofstream out("out.ppm");
+	out << "P3\n" << W << ' ' << H << ' ' << "255\n";
+
+	double t;
+	Vec3f pix_col(black);
+
+	for (int y = 0; y < H; ++y) {
+		for (int x = 0; x < W; ++x) {
+			pix_col = black;
+			const Ray ray(Vec3f(x, y, 0), Vec3f(0, 0, 1));
+			if (sphere.intersect(ray, t)) {
+				Vec3f	pi = ray.o + ray.d * t;
+				Vec3f L = light.c - pi;
+				Vec3f N = sphere.getNormal(pi);
+				Vec3f Ln = L.normalize();
+				const double dt = Ln.dotProduct(N.normalize());
+
+				pix_col = (red + white * dt) * 0.5;
+				clamp255(pix_col);
+			}
+			if (sphere2.intersect(ray, t)) {
+				Vec3f	pi = ray.o + ray.d * t;
+				Vec3f L = light.c - pi;
+				Vec3f N = sphere2.getNormal(pi);
+				Vec3f Ln = L.normalize();
+				const double dt = Ln.dotProduct(N.normalize());
+
+				pix_col = (red + white * dt) * 0.5;
+				clamp255(pix_col);
+			}
+			out << (int)pix_col.x << ' '
+				<< (int)pix_col.y << ' '
+				<< (int)pix_col.z << '\n';
+		}
+	}
+}

@@ -1,0 +1,35 @@
+﻿  rasteriser.cpp
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Software-Rasteriser-Starter\rasteriser.cpp(11,1): warning C4005: 'M_PI': macro redefinition
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Software-Rasteriser-Starter\SDL2-2.0.12\include\SDL_stdinc.h(508): message : see previous definition of 'M_PI'
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Software-Rasteriser-Starter\rasteriser.cpp(28,35): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Software-Rasteriser-Starter\rasteriser.cpp(53,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Software-Rasteriser-Starter\rasteriser.cpp(168,32): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Software-Rasteriser-Starter\rasteriser.cpp(169,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Software-Rasteriser-Starter\rasteriser.cpp(367,36): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Software-Rasteriser-Starter\rasteriser.cpp(405,36): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Software-Rasteriser-Starter\rasteriser.cpp(451,54): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Software-Rasteriser-Starter\rasteriser.cpp(451,45): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Software-Rasteriser-Starter\rasteriser.cpp(508,117): warning C4244: 'argument': conversion from 'float' to 'Uint8', possible loss of data
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Software-Rasteriser-Starter\rasteriser.cpp(508,101): warning C4244: 'argument': conversion from 'float' to 'Uint8', possible loss of data
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Software-Rasteriser-Starter\rasteriser.cpp(508,85): warning C4244: 'argument': conversion from 'float' to 'Uint8', possible loss of data
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Software-Rasteriser-Starter\rasteriser.cpp(509,90): warning C4244: 'argument': conversion from 'float' to 'unsigned char', possible loss of data
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Software-Rasteriser-Starter\rasteriser.cpp(509,74): warning C4244: 'argument': conversion from 'float' to 'unsigned char', possible loss of data
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Software-Rasteriser-Starter\rasteriser.cpp(509,58): warning C4244: 'argument': conversion from 'float' to 'unsigned char', possible loss of data
+  Generating code
+  1 of 490 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  SoftwareRasteriser.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\Software-Rasteriser-Starter\x64\Release\SoftwareRasteriser.exe

@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/jw956/Desktop/Graphics pbrt renderer/pbrt-v3/src/ext/ptex/src/tests/CMakeLists.txt
+  halftest.cpp
+C:\Users\jw956\Desktop\Graphics pbrt renderer\pbrt-v3\src\ext\ptex\src\tests\halftest.cpp(294,5): warning C4305: 'initializing': truncation from 'double' to 'float'
+  halftest.vcxproj -> C:\Users\jw956\Desktop\Graphics pbrt renderer\pbrt-v3\BUILD\src\ext\ptex\src\tests\Release\halftest.exe

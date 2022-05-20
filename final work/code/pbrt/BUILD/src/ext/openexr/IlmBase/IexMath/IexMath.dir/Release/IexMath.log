@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/Users/jw956/Desktop/Graphics pbrt renderer/pbrt-v3/src/ext/openexr/IlmBase/IexMath/CMakeLists.txt
+  IexMathFloatExc.cpp
+  IexMathFpu.cpp
+  Generating Code...
+  IexMath.vcxproj -> C:\Users\jw956\Desktop\Graphics pbrt renderer\pbrt-v3\BUILD\src\ext\openexr\IlmBase\IexMath\Release\IexMath.lib

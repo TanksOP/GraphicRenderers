@@ -1,0 +1,30 @@
+^C:\USERS\JW956\DESKTOP\GRAPHICS PBRT RENDERER\PBRT-V3\BUILD\CMAKEFILES\72A36A3A09DD375277C3D8F7A576B169\B44EXPLOGTABLE.H.RULE
+setlocal
+Release\b44ExpLogTable > "C:/Users/jw956/Desktop/Graphics pbrt renderer/pbrt-v3/BUILD/src/ext/openexr/OpenEXR/IlmImf/b44ExpLogTable.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JW956\DESKTOP\GRAPHICS PBRT RENDERER\PBRT-V3\BUILD\CMAKEFILES\72A36A3A09DD375277C3D8F7A576B169\DWALOOKUPS.H.RULE
+setlocal
+Release\dwaLookups > "C:/Users/jw956/Desktop/Graphics pbrt renderer/pbrt-v3/BUILD/src/ext/openexr/OpenEXR/IlmImf/dwaLookups.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JW956\DESKTOP\GRAPHICS PBRT RENDERER\PBRT-V3\SRC\EXT\OPENEXR\OPENEXR\ILMIMF\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/jw956/Desktop/Graphics pbrt renderer/pbrt-v3" "-BC:/Users/jw956/Desktop/Graphics pbrt renderer/pbrt-v3/BUILD" --check-stamp-file "C:/Users/jw956/Desktop/Graphics pbrt renderer/pbrt-v3/BUILD/src/ext/openexr/OpenEXR/IlmImf/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

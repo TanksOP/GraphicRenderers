@@ -1,0 +1,10 @@
+^C:\USERS\JW956\DESKTOP\GRAPHICS PBRT RENDERER\PBRT-V3\SRC\EXT\OPENEXR\ILMBASE\IEX\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/jw956/Desktop/Graphics pbrt renderer/pbrt-v3" "-BC:/Users/jw956/Desktop/Graphics pbrt renderer/pbrt-v3/BUILD" --check-stamp-file "C:/Users/jw956/Desktop/Graphics pbrt renderer/pbrt-v3/BUILD/src/ext/openexr/IlmBase/Iex/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

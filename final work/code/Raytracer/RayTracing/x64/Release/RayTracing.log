@@ -1,0 +1,331 @@
+﻿  RayTracing.cpp
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\ray.h(13,17): warning C4244: 'argument': conversion from 'double' to 'const T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\aabb.h(36,7): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\aabb.h(35,7): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\aabb.h(34,20): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\aabb.h(40,7): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\aabb.h(39,7): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\aabb.h(38,18): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\Sphere.h(40,44): warning C4244: 'argument': conversion from 'const double' to 'const T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\Sphere.h(47,51): warning C4244: 'argument': conversion from 'const double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\Sphere.h(47,43): warning C4244: 'argument': conversion from 'const double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\Sphere.h(47,35): warning C4244: 'argument': conversion from 'const double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\Sphere.h(47,91): warning C4244: 'argument': conversion from 'const double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\Sphere.h(47,83): warning C4244: 'argument': conversion from 'const double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\Sphere.h(47,75): warning C4244: 'argument': conversion from 'const double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\Triangle.h(48,32): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\Triangle.h(40,11): warning C4101: 'thit': unreferenced local variable
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\Camera.h(22,33): warning C4244: 'argument': conversion from 'double' to 'const T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\Camera.h(23,31): warning C4244: 'argument': conversion from 'double' to 'const T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\Camera.h(24,70): warning C4244: 'argument': conversion from 'double' to 'const T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\Camera.h(28,20): warning C4244: 'argument': conversion from 'const double' to 'const T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\Camera.h(30,57): warning C4244: 'argument': conversion from 'double' to 'const T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\Camera.h(30,74): warning C4244: 'argument': conversion from 'double' to 'const T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\Material.h(14,47): warning C4244: 'argument': conversion from 'double' to 'const T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\Material.h(14,24): warning C4244: 'argument': conversion from 'double' to 'const T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\Material.h(15,28): warning C4244: 'argument': conversion from 'double' to 'const T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\Material.h(70,44): warning C4244: 'argument': conversion from 'const double' to 'const T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(130,62): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(130,86): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(130,30): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(131,16): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(156,66): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(158,61): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(175,31): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(177,28): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(191,33): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(192,66): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(193,28): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(207,35): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(208,61): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(209,28): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(258,45): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(292,65): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(293,62): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(295,71): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(296,72): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(298,66): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(299,71): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(301,77): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(305,64): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(354,40): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(370,34): warning C4244: 'argument': conversion from 'double' to 'const T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(370,89): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(370,65): warning C4244: 'argument': conversion from 'double' to 'const T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(379,81): warning C4244: 'argument': conversion from 'T' to 'Uint8', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(379,70): warning C4244: 'argument': conversion from 'T' to 'Uint8', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(379,59): warning C4244: 'argument': conversion from 'T' to 'Uint8', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(382,54): warning C4244: 'argument': conversion from 'T' to 'unsigned char', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(382,43): warning C4244: 'argument': conversion from 'T' to 'unsigned char', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(382,32): warning C4244: 'argument': conversion from 'T' to 'unsigned char', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(439,12): warning C4101: 't': unreferenced local variable
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\geometry.h(102,58): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\geometry.h(100): message : while compiling class template member function 'Vec3<float> Vec3<float>::random_in_unit_disk(void)'
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\Camera.h(28): message : see reference to function template instantiation 'Vec3<float> Vec3<float>::random_in_unit_disk(void)' being compiled
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\ray.h(17): message : see reference to class template instantiation 'Vec3<float>' being compiled
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\geometry.h(102,38): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\geometry.h(85,78): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\geometry.h(84): message : while compiling class template member function 'Vec3<float> Vec3<float>::random(double,double)'
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(141): message : see reference to function template instantiation 'Vec3<float> Vec3<float>::random(double,double)' being compiled
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\geometry.h(85,55): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\geometry.h(85,32): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\geometry.h(82,62): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\geometry.h(81): message : while compiling class template member function 'Vec3<float> Vec3<float>::random(void)'
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(135): message : see reference to function template instantiation 'Vec3<float> Vec3<float>::random(void)' being compiled
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\geometry.h(82,47): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\geometry.h(82,32): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(240,28): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\RayTracing\RayTracing.cpp(310): message : see reference to function template instantiation 'void AddtoWorld<std::shared_ptr<lambertian>>(Model *,T,Vec3f,hittable_list &)' being compiled
+          with
+          [
+              T=std::shared_ptr<lambertian>
+          ]
+  Generating code
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 1155 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  RayTracing.vcxproj -> C:\Users\jw956\Documents\GitHub\Computer_Graphics_milestone_repo\RayTracing Part 3\x64\Release\RayTracing.exe

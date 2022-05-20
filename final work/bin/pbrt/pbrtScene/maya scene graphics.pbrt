@@ -1,0 +1,366 @@
+# Exported for PBRT Version : v3 Master Branch
+
+Film "image"
+	"integer yresolution" [1080]
+	"float scale" [1.0]
+	"float diagonal" [43.2665287723]
+	"integer xresolution" [1920]
+
+Sampler "halton"
+	"integer pixelsamples" [5]
+
+PixelFilter "gaussian"
+	"float ywidth" [2.0]
+	"float xwidth" [2.0]
+	"float alpha" [2.0]
+
+Integrator "path"
+	"string lightsamplestrategy" ["spatial"]
+	"integer maxdepth" [5]
+	"float rrthreshold" [1.0]
+
+Accelerator "bvh"
+	"string splitmethod" ["sah"]
+	"integer maxnodeprims" [4]
+
+# Camera begin
+Scale -1 1 1
+LookAt -34.099318 43.430426 -2.594085 -29.247121 42.374748 -3.178654 0.212728 0.977111 0.001174
+Camera "perspective"
+	"float fov" [54.4322231146]
+	"float screenwindow" [-1.0 1.0 -0.5625 0.5625]
+# Camera end
+
+WorldBegin
+	AttributeBegin
+		# Maya Directional Light : |directionalLight1|directionalLightShape1
+		LightSource "distant"
+			"point to" [-0.0557716311118 -0.667774335384 0.74227148818]
+			"rgb scale" [6.0 6.0 6.0]
+			"rgb L" [1.0 1.0 1.0]
+	AttributeEnd
+
+	AttributeBegin
+		# Maya Point Light : |pointLight1|pointLightShape1
+		Translate -11.3649983115 41.0415488894 -9.21544462191
+		LightSource "point"
+			"rgb I" [1.0 1.0 1.0]
+			"rgb scale" [40.0 40.0 40.0]
+	AttributeEnd
+
+	AttributeBegin
+		# Maya Point Light : |pointLight2|pointLightShape2
+		Translate -5.6766999002 44.7930873021 -0.276017916451
+		LightSource "point"
+			"rgb I" [1.0 1.0 1.0]
+			"rgb scale" [60.0 60.0 60.0]
+	AttributeEnd
+
+	AttributeBegin
+		# Maya Point Light : |pointLight3|pointLightShape3
+		Translate -2.36409002672 40.3070717484 -5.74218140832
+		LightSource "point"
+			"rgb I" [1.0 1.0 1.0]
+			"rgb scale" [50.0 50.0 50.0]
+	AttributeEnd
+
+	Texture "file29" "spectrum" "imagemap"
+		"float vdelta" [0.0]
+		"float udelta" [0.0]
+		"string mapping" ["uv"]
+		"string filename" ["../assets/cara-cara-orange/fr_caraOrange_albedo.png"]
+		"float uscale" [1.0]
+		"bool gamma" ["true"]
+		"float vscale" [1.0]
+
+	Texture "file8" "spectrum" "imagemap"
+		"float vdelta" [0.0]
+		"float udelta" [0.0]
+		"string mapping" ["uv"]
+		"string filename" ["../assets/table-5/Albedo.png"]
+		"float uscale" [1.0]
+		"bool gamma" ["true"]
+		"float vscale" [1.0]
+
+	MakeNamedMaterial "PBRTUberMaterialOrange"
+		"rgb opacity" [1.0 1.0 1.0]
+		"float index" [1.5]
+		"texture Kd" ["file29"]
+		"float roughness" [0.10000000149]
+		"rgb Ks" [0.25 0.25 0.25]
+		"rgb Kr" [0.0 0.0 0.0]
+		"bool remaproughness" ["true"]
+		"string type" ["uber"]
+
+	MakeNamedMaterial "PBRTUberMaterialgreenstem"
+		"rgb opacity" [1.0 1.0 1.0]
+		"float index" [1.5]
+		"rgb Kd" [0.0370870530605 0.133000001311 0.0332500003278]
+		"float roughness" [0.10000000149]
+		"rgb Ks" [0.25 0.25 0.25]
+		"rgb Kr" [0.0 0.0 0.0]
+		"bool remaproughness" ["true"]
+		"string type" ["uber"]
+
+	MakeNamedMaterial "PBRTUbervasered"
+		"rgb opacity" [1.0 1.0 1.0]
+		"float index" [1.5]
+		"rgb Kd" [0.11779999733 0.00650000013411 0.00230000005104]
+		"float roughness" [0.10000000149]
+		"rgb Ks" [0.25 0.25 0.25]
+		"rgb Kr" [0.0 0.0 0.0]
+		"bool remaproughness" ["true"]
+		"string type" ["uber"]
+
+	MakeNamedMaterial "lambert5"
+		"string type" ["matte"]
+		"rgb Kd" [1.0 1.0 1.0]
+
+	MakeNamedMaterial "PBRTUberMaterialreed_rose"
+		"rgb opacity" [1.0 1.0 1.0]
+		"float index" [1.5]
+		"rgb Kd" [0.563000023365 0.0 0.0]
+		"float roughness" [0.10000000149]
+		"rgb Ks" [0.25 0.25 0.25]
+		"rgb Kr" [0.0 0.0 0.0]
+		"bool remaproughness" ["true"]
+		"string type" ["uber"]
+
+	MakeNamedMaterial "PBRTMetalMaterial1"
+		"bool remaproughness" ["true"]
+		"rgb k" [0.511494278908 0.511494278908 0.511494278908]
+		"rgb eta" [0.5 0.5 0.5]
+		"string type" ["metal"]
+		"float roughness" [0.00200000009499]
+
+	MakeNamedMaterial "table"
+		"string type" ["matte"]
+		"texture Kd" ["file8"]
+
+	MakeNamedMaterial "PBRTGlassMaterial1"
+		"bool remaproughness" ["true"]
+		"rgb Kr" [1.0 1.0 1.0]
+		"string type" ["glass"]
+		"float index" [1.5]
+		"rgb Kt" [1.0 1.0 1.0]
+
+	MakeNamedMaterial "PBRTUberMaterial1"
+		"rgb opacity" [1.0 1.0 1.0]
+		"float index" [1.5]
+		"rgb Kd" [0.0 0.0485000014305 0.540000021458]
+		"float roughness" [0.10000000149]
+		"rgb Ks" [0.122000001371 0.122000001371 0.122000001371]
+		"rgb Kr" [0.0 0.0 0.0]
+		"bool remaproughness" ["true"]
+		"string type" ["uber"]
+
+	ObjectBegin "|Orange6"
+		# Maya Geometry : |Orange6|Orange6Shape
+		NamedMaterial "PBRTUberMaterialOrange"
+		Include "__Orange6__Orange6Shape.pbrt"
+	ObjectEnd
+
+	AttributeBegin
+		# Maya Transform : |Orange6
+		ObjectInstance "|Orange6"
+	AttributeEnd
+
+	ObjectBegin "|Orange7"
+		# Maya Geometry : |Orange7|Orange7Shape
+		NamedMaterial "PBRTUberMaterialOrange"
+		Include "__Orange7__Orange7Shape.pbrt"
+	ObjectEnd
+
+	AttributeBegin
+		# Maya Transform : |Orange7
+		ObjectInstance "|Orange7"
+	AttributeEnd
+
+	ObjectBegin "|Orange4"
+		# Maya Geometry : |Orange4|Orange4Shape
+		NamedMaterial "PBRTUberMaterialOrange"
+		Include "__Orange4__Orange4Shape.pbrt"
+	ObjectEnd
+
+	AttributeBegin
+		# Maya Transform : |Orange4
+		ObjectInstance "|Orange4"
+	AttributeEnd
+
+	ObjectBegin "|Orange5"
+		# Maya Geometry : |Orange5|Orange5Shape
+		NamedMaterial "PBRTUberMaterialOrange"
+		Include "__Orange5__Orange5Shape.pbrt"
+	ObjectEnd
+
+	AttributeBegin
+		# Maya Transform : |Orange5
+		ObjectInstance "|Orange5"
+	AttributeEnd
+
+	ObjectBegin "|Orange2"
+		# Maya Geometry : |Orange2|Orange2Shape
+		NamedMaterial "PBRTUberMaterialOrange"
+		Include "__Orange2__Orange2Shape.pbrt"
+	ObjectEnd
+
+	AttributeBegin
+		# Maya Transform : |Orange2
+		ObjectInstance "|Orange2"
+	AttributeEnd
+
+	ObjectBegin "|Orange3"
+		# Maya Geometry : |Orange3|Orange3Shape
+		NamedMaterial "PBRTUberMaterialOrange"
+		Include "__Orange3__Orange3Shape.pbrt"
+	ObjectEnd
+
+	AttributeBegin
+		# Maya Transform : |Orange3
+		ObjectInstance "|Orange3"
+	AttributeEnd
+
+	ObjectBegin "|rosestem_2"
+		# Maya Geometry : |rosestem_2|rosestem_2Shape
+		NamedMaterial "PBRTUberMaterialgreenstem"
+		Include "__rosestem_2__rosestem_2Shape.pbrt"
+	ObjectEnd
+
+	AttributeBegin
+		# Maya Transform : |rosestem_2
+		ObjectInstance "|rosestem_2"
+	AttributeEnd
+
+	ObjectBegin "|Orange1"
+		# Maya Geometry : |Orange1|Orange1Shape
+		NamedMaterial "PBRTUberMaterialOrange"
+		Include "__Orange1__Orange1Shape.pbrt"
+	ObjectEnd
+
+	AttributeBegin
+		# Maya Transform : |Orange1
+		ObjectInstance "|Orange1"
+	AttributeEnd
+
+	ObjectBegin "|vase2_vase2"
+		# Maya Geometry : |vase2_vase2|vase2_vase2Shape
+		NamedMaterial "PBRTUbervasered"
+		Include "__vase2_vase2__vase2_vase2Shape.pbrt"
+	ObjectEnd
+
+	AttributeBegin
+		# Maya Transform : |vase2_vase2
+		ObjectInstance "|vase2_vase2"
+	AttributeEnd
+
+	ObjectBegin "|pPlane1"
+		# Maya Geometry : |pPlane1|pPlaneShape1
+		NamedMaterial "lambert5"
+		Include "__pPlane1__pPlaneShape1.pbrt"
+	ObjectEnd
+
+	AttributeBegin
+		# Maya Transform : |pPlane1
+		ObjectInstance "|pPlane1"
+	AttributeEnd
+
+	ObjectBegin "|rosetop_1"
+		# Maya Geometry : |rosetop_1|rosetop_1Shape
+		NamedMaterial "PBRTUberMaterialreed_rose"
+		Include "__rosetop_1__rosetop_1Shape.pbrt"
+	ObjectEnd
+
+	AttributeBegin
+		# Maya Transform : |rosetop_1
+		ObjectInstance "|rosetop_1"
+	AttributeEnd
+
+	ObjectBegin "|Orange"
+		# Maya Geometry : |Orange|OrangeShape
+		NamedMaterial "PBRTUberMaterialOrange"
+		Include "__Orange__OrangeShape.pbrt"
+	ObjectEnd
+
+	AttributeBegin
+		# Maya Transform : |Orange
+		ObjectInstance "|Orange"
+	AttributeEnd
+
+	ObjectBegin "|Orange8"
+		# Maya Geometry : |Orange8|Orange8Shape
+		NamedMaterial "PBRTUberMaterialOrange"
+		Include "__Orange8__Orange8Shape.pbrt"
+	ObjectEnd
+
+	AttributeBegin
+		# Maya Transform : |Orange8
+		ObjectInstance "|Orange8"
+	AttributeEnd
+
+	ObjectBegin "|rosetop_2"
+		# Maya Geometry : |rosetop_2|rosetop_2Shape
+		NamedMaterial "PBRTUberMaterialreed_rose"
+		Include "__rosetop_2__rosetop_2Shape.pbrt"
+	ObjectEnd
+
+	AttributeBegin
+		# Maya Transform : |rosetop_2
+		ObjectInstance "|rosetop_2"
+	AttributeEnd
+
+	ObjectBegin "|pCylinder1"
+		# Maya Geometry : |pCylinder1|pCylinder1Shape
+		NamedMaterial "PBRTMetalMaterial1"
+		Include "__pCylinder1__pCylinder1Shape.pbrt"
+	ObjectEnd
+
+	AttributeBegin
+		# Maya Transform : |pCylinder1
+		ObjectInstance "|pCylinder1"
+	AttributeEnd
+
+	ObjectBegin "|group1|Cube_1"
+		# Maya Geometry : |group1|Cube_1|Cube_1Shape
+		NamedMaterial "table"
+		Include "__group1__Cube_1__Cube_1Shape.pbrt"
+	ObjectEnd
+
+	AttributeBegin
+		# Maya Transform : |group1|Cube_1
+		ObjectInstance "|group1|Cube_1"
+	AttributeEnd
+
+	ObjectBegin "|IkeaCupFBXASC0462"
+		# Maya Geometry : |IkeaCupFBXASC0462|IkeaCupFBXASC0462Shape
+		NamedMaterial "PBRTGlassMaterial1"
+		Include "__IkeaCupFBXASC0462__IkeaCupFBXASC0462Shape.pbrt"
+	ObjectEnd
+
+	AttributeBegin
+		# Maya Transform : |IkeaCupFBXASC0462
+		ObjectInstance "|IkeaCupFBXASC0462"
+	AttributeEnd
+
+	ObjectBegin "|vase4_vase4"
+		# Maya Geometry : |vase4_vase4|vase4_vase4Shape
+		NamedMaterial "PBRTUberMaterial1"
+		Include "__vase4_vase4__vase4_vase4Shape.pbrt"
+	ObjectEnd
+
+	AttributeBegin
+		# Maya Transform : |vase4_vase4
+		ObjectInstance "|vase4_vase4"
+	AttributeEnd
+
+	ObjectBegin "|rosestem_1"
+		# Maya Geometry : |rosestem_1|rosestem_1Shape
+		NamedMaterial "PBRTUberMaterialgreenstem"
+		Include "__rosestem_1__rosestem_1Shape.pbrt"
+	ObjectEnd
+
+	AttributeBegin
+		# Maya Transform : |rosestem_1
+		ObjectInstance "|rosestem_1"
+	AttributeEnd
+
+WorldEnd

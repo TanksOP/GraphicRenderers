@@ -1,0 +1,38 @@
+^C:\USERS\JW956\DESKTOP\GRAPHICS PBRT RENDERER\PBRT-V3\BUILD\CMAKEFILES\A34885C43DDAB171561A8D45A93D4B1F\ELUT.H.RULE
+setlocal
+cd "C:\Users\jw956\Desktop\Graphics pbrt renderer\pbrt-v3\BUILD\src\ext\openexr\IlmBase\Half"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Users\jw956\Desktop\Graphics pbrt renderer\pbrt-v3\BUILD\src\ext\openexr\IlmBase\Half\Release\eLut.exe" > "C:/Users/jw956/Desktop/Graphics pbrt renderer/pbrt-v3/BUILD/src/ext/openexr/IlmBase/Half/eLut.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JW956\DESKTOP\GRAPHICS PBRT RENDERER\PBRT-V3\BUILD\CMAKEFILES\A34885C43DDAB171561A8D45A93D4B1F\TOFLOAT.H.RULE
+setlocal
+cd "C:\Users\jw956\Desktop\Graphics pbrt renderer\pbrt-v3\BUILD\src\ext\openexr\IlmBase\Half"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Users\jw956\Desktop\Graphics pbrt renderer\pbrt-v3\BUILD\src\ext\openexr\IlmBase\Half\Release\toFloat.exe" > "C:/Users/jw956/Desktop/Graphics pbrt renderer/pbrt-v3/BUILD/src/ext/openexr/IlmBase/Half/toFloat.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JW956\DESKTOP\GRAPHICS PBRT RENDERER\PBRT-V3\SRC\EXT\OPENEXR\ILMBASE\HALF\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/jw956/Desktop/Graphics pbrt renderer/pbrt-v3" "-BC:/Users/jw956/Desktop/Graphics pbrt renderer/pbrt-v3/BUILD" --check-stamp-file "C:/Users/jw956/Desktop/Graphics pbrt renderer/pbrt-v3/BUILD/src/ext/openexr/IlmBase/Half/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

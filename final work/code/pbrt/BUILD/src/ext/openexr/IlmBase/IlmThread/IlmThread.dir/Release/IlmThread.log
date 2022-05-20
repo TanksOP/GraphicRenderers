@@ -1,0 +1,14 @@
+﻿  Building Custom Rule C:/Users/jw956/Desktop/Graphics pbrt renderer/pbrt-v3/src/ext/openexr/IlmBase/IlmThread/CMakeLists.txt
+  IlmThread.cpp
+  IlmThreadMutex.cpp
+  IlmThreadMutexPosix.cpp
+  IlmThreadPool.cpp
+  IlmThreadPosix.cpp
+  IlmThreadSemaphore.cpp
+  IlmThreadSemaphorePosixCompat.cpp
+  IlmThreadSemaphorePosix.cpp
+  IlmThreadMutexWin32.cpp
+  IlmThreadSemaphoreWin32.cpp
+  IlmThreadWin32.cpp
+  Generating Code...
+  IlmThread.vcxproj -> C:\Users\jw956\Desktop\Graphics pbrt renderer\pbrt-v3\BUILD\src\ext\openexr\IlmBase\IlmThread\Release\IlmThread.lib

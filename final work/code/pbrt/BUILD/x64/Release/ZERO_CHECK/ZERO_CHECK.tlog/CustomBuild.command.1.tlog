@@ -1,0 +1,10 @@
+^C:\USERS\JW956\DESKTOP\GRAPHICS PBRT RENDERER\PBRT-V3\BUILD\CMAKEFILES\F67DD768E9E2771C3310979E25CFA9D1\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/jw956/Desktop/Graphics pbrt renderer/pbrt-v3" "-BC:/Users/jw956/Desktop/Graphics pbrt renderer/pbrt-v3/BUILD" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/jw956/Desktop/Graphics pbrt renderer/pbrt-v3/BUILD/PBRT-V3.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
